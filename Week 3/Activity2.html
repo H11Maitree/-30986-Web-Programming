@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Write your name here -->
+        <title>Maitree Hirunteeyakun</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend><h1>Registration</h1></legend>
+                <h3>Please fill in your personal info</h3>
+
+                <label for="txtStudentID">Student ID</label>
+                <input type="text" id="txtStudentID" pattern="[0-9]{5}"><br>
+
+                <label for="txtFirstName">First name</label>
+                <input type="text" id="txtFirstName" placeholder="e.g. Harry"><br>
+
+                <label for="txtLastName">Last name</label>
+                <input type="text" id="txtLastName" placeholder="e.g. Potter"><br>
+
+                <label for="cldBD">Birth Date</label>
+                <input type="date" id="cldBD" min="1980-01-01" max="2010-01-01">
+                <br>
+                <p>Gender</p>
+                <input type="radio" name="Gender" value="IDK">IDK 
+                <input type="radio" name="Gender" value="Female">Female 
+                <input type="radio" name="Gender" value="Male">Male<br>
+
+                <p>Hobbies</p>
+                <input type="checkbox" name="Hobbies" value="Basketball">Basketball
+                <input type="checkbox" name="Hobbies" value="Football">Football
+                <input type="checkbox" name="Hobbies" value="Programming">Programming<br>
+                <input type="checkbox" name="Hobbies" value="Photography">Photography
+                <input type="checkbox" name="Hobbies" value="Running">Running
+
+                <br>
+                <button type="submit">Submit</button>
+                <button type="clear">Clear</button>
+            </fieldset>
+        </form>
+
+    
+    </body>
+</html>
